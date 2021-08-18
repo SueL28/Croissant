@@ -20,6 +20,11 @@ h1 {
   color: rgb(71, 56, 6);
 }
 
+h3 {
+  background-color: var(--primary-colour);
+  padding: 20px;
+}
+
 .photo-bg-colour {
   background-color: var(--secondary-colour);
 }

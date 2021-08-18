@@ -1,0 +1,48 @@
+:root {
+  --primary-colour: #dba724d7;
+  --secondary-colour: #eedcaed2;
+}
+
+body {
+  display: block;
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-image: url(/images/croissant-background.jpg);
+}
+
+h1 {
+  font-size: 48pt;
+  margin: 45px;
+  background-color: var(--primary-colour);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: rgb(71, 56, 6);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+  font-size: 13pt;
+  text-decoration: none;
+  color: #1d1501;
+  transition: all 150ms ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.contact-grid {
+  background-color: var(--secondary-colour);
+  padding: 10px;
+}
+
+.phone-number {
+  font-size: 15pt;
+  font-weight: 500;
+}
