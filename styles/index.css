@@ -1,0 +1,22 @@
+body {
+  display: block;
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+p {
+  font-size: 15pt;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.text-container {
+  max-width: 800px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
