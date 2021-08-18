@@ -1,0 +1,25 @@
+:root {
+  --primary-colour: #dba724d7;
+  --secondary-colour: #eedcaebb;
+}
+
+body {
+  display: block;
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-image: url(/images/croissant-background.jpg);
+}
+
+h1 {
+  font-size: 48pt;
+  margin: 45px;
+  background-color: var(--primary-colour);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: rgb(71, 56, 6);
+}
+
+.photo-bg-colour {
+  background-color: var(--secondary-colour);
+}

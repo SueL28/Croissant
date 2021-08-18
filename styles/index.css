@@ -1,6 +1,6 @@
 :root {
   --primary-colour: #dba724d7;
-  --secondar-colour: #eedcaee8;
+  --secondary-colour: #eedcaee8;
 }
 
 body {
@@ -25,7 +25,7 @@ p {
   line-height: 1.5;
   font-weight: 500;
   margin-top: 30px;
-  background-color: var(--secondar-colour);
+  background-color: var(--secondary-colour);
   padding: 45px;
   border-radius: 7px;
 }
