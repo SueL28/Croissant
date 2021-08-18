@@ -37,6 +37,10 @@ a:hover {
   color: black;
 }
 
+footer {
+  margin: 30px;
+}
+
 .contact-grid {
   background-color: var(--secondary-colour);
   padding: 10px;
@@ -45,4 +49,9 @@ a:hover {
 .phone-number {
   font-size: 15pt;
   font-weight: 500;
+}
+
+.footer {
+  padding: 20px;
+  background-color: var(--primary-colour);
 }

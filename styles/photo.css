@@ -25,6 +25,18 @@ h3 {
   padding: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .photo-bg-colour {
   background-color: var(--secondary-colour);
+}
+
+.footer {
+  padding: 30px;
 }
